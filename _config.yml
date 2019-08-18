@@ -1,1 +1,4 @@
 theme: jekyll-theme-midnight
+title: SVRX
+description: A pluggable frontend server, it just works.
+google_analytics: UA-46698359-7
