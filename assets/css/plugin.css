@@ -84,11 +84,7 @@
 @media only screen and (min-width: 28em) {
   .plugins .plugin--description { font-size: 1rem; }
 }
-.plugins .plugin--description em {
-  color: #d28445;
-  font-weight: bold;
-  text-decoration: underline;
-}
+
 .plugins .plugin--right {
   display: none;
 }

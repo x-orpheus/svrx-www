@@ -27,24 +27,18 @@
 
 
   $(function() {
-
-    var instructions = $('#instructions');
-    $('#instructions-toggle').on('click', function (e) {
-      e.preventDefault();
-      instructions.toggle('fast');
-    });
-
     var search = instantsearch({
       appId: 'OFCNCOG2CU',
       apiKey: '14ddf54fd4f3435c1cd4038395a0cf10',
-      indexName: 'npm-search'
+      indexName: 'npm-search',
+      routing: true
     });
 
     search.addWidget(
       instantsearch.widgets.searchBox({
         container: '#searchbox',
         poweredBy: true,
-        placeholder: 'Search into all svrx plugins'
+        placeholder: 'Search with prefix: svrx-plugin-'
       })
     );
 
