@@ -1,0 +1,119 @@
+/* Ref: https://github.com/yeoman/yeoman.io/blob/source/app/assets/css/main.css */
+
+.ais-search-box--powered-by-link {
+  display: inline;
+  background-image: none;
+}
+
+.ais-search-box--input {
+  background: #252525;
+  color: #fff;
+}
+
+.ais-search-box {
+  max-width: unset;
+}
+
+.plugins .plugin {
+  border: solid 1px #434343;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+}
+
+.plugins .plugin--left {
+  flex: auto;
+}
+.plugins .plugin--title {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 28em) {
+  .plugins .plugin--title {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+.plugins .plugin--title a {
+  text-decoration: none;
+}
+.plugins .plugin--title a:hover {
+  text-decoration: underline;
+}
+.plugins .plugin--name {
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 50em) {
+  .plugins .plugin--name { font-size: 1.2em; }
+}
+.plugins .plugin--name em {
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.plugins .plugin--author {
+  font-size: .9rem;
+  margin: .5rem 0 0 0;
+}
+@media only screen and (min-width: 28em) {
+  .plugins .plugin--author {
+    margin: 0 0 0 .5rem;
+  }
+}
+.plugins .plugin--avatar {
+  border-radius: 4px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.plugins .plugin--version {
+  display: none;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: .8rem;
+  padding: 2px 4px;
+  margin-left: .5rem;
+}
+@media only screen and (min-width: 28em) {
+  .plugins .plugin--version { display: inline; }
+}
+.plugins .plugin--description {
+  font-size: 0.9rem;
+  padding: .5rem 0px;
+}
+@media only screen and (min-width: 28em) {
+  .plugins .plugin--description { font-size: 1rem; }
+}
+.plugins .plugin--description em {
+  color: #d28445;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.plugins .plugin--right {
+  display: none;
+}
+@media only screen and (min-width: 35em) {
+  .plugins .plugin--right {
+    flex: none;
+    width: 15%;
+    align-items: center;
+    display: flex;
+    text-align: right;
+    font-size: smaller;
+   }
+}
+@media only screen and (min-width: 42em) {
+  .plugins .plugin--right { width: 30%; }
+}
+.plugins .plugin--downloads {
+  flex: auto;
+}
+
+.plugins .plugin--date {
+  display: none;
+  flex: none;
+  width: 60%;
+}
+@media only screen and (min-width: 42em) {
+  .plugins .plugin--date { display: block; }
+}
