@@ -28,3 +28,5 @@ Please see the [contributing guidelines](https://docs.svrx.io/en/contribute/pr.h
 ## Providing a new plugin
 
 For contributors planning to write a new plugin, please see the [plugin development guide](https://docs.svrx.io/en/contribute/plugin.html).
+
+[👉 See all plugins](/plugin?query=svrx-plugin-)
