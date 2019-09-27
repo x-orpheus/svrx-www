@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1/dist/instantsearch-theme-algolia.min.css">
+    <link rel="stylesheet" href="/assets/css/plugin.css">
   </head>
   <body>
     <div class="wrapper">
@@ -34,7 +36,10 @@
       </section>
 
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js"></script>
+    <script src="/assets/js/doT.min.js"></script>
+    <script src="/assets/js/plugin.js"></script>
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
