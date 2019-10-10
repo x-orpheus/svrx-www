@@ -1,5 +1,3 @@
-<img src="/assets/images/logo_transparent.png" width="50%" style="margin: 0 auto;display: block;" />
-
 svrx(server-x) is a platform built for efficient front-end development.
 
 ## Quick Start

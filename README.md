@@ -1,7 +1,8 @@
 svrx-www
 ---
 
-![](/assets/images/twitter_header_photo_2.png)
+![](/assets/images/banner.png)
+
 
 The [homepage](https://svrx.io) of svrx.
 
