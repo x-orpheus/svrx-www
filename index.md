@@ -1,5 +1,15 @@
 svrx(server-x) is a platform built for efficient front-end development.
 
+## Feature List
+
+🍻  **Serve** a static site or SPA in current directory               
+🐱 Easy to **proxy** everything             
+🏈   **Auto reload**: editing css will update styles only, other files will reload the whole page             
+🍀   **Powerful plugins**: use without installation               
+🐥   **Routing with hot reload**: never restart your server               
+🚀   **Toolkit** for quick plugin development             
+🎊  ...
+
 ## Quick Start
 
  - `npm install -g @svrx/cli`
