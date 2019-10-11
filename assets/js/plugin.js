@@ -46,12 +46,6 @@
     );
 
     search.addWidget(
-      instantsearch.widgets.stats({
-        container: '#stats'
-      })
-    );
-
-    search.addWidget(
       instantsearch.widgets.hits({
         container: '#results',
         templates: {
@@ -66,7 +60,7 @@
             var version = item.version;
             var downloadReadable = item.humanDownloadsLast30Days;
             var lastUpdated = timeago().format(item.modified);
-
+            if (item.name === 'svrx-plugin-demo') return '';
             return itemTemplate({
               name: name,
               url: url,
