@@ -1,6 +1,6 @@
 svrx(server-x) is a platform built for efficient front-end development.
 
-## Feature List
+## Features
 
 🍻  **Serve** a static site or SPA in current directory               
 🐱 Easy to **proxy** everything             
