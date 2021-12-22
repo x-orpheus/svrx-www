@@ -37,4 +37,4 @@ Please see the [contributing guidelines](https://svrxjs.github.io/svrx-docs/en/c
 
 For contributors planning to write a new plugin, please see the [plugin development guide](https://svrxjs.github.io/svrx-docs/en/plugin/contribution.html).
 
-[👉 See all plugins](/plugin?query=svrx-plugin-)
+[👉 See all plugins](/svrx-www/plugin?query=svrx-plugin-)
