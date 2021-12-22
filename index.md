@@ -21,9 +21,9 @@ svrx(server-x) is a platform built for efficient front-end development.
 
 ## Documentation
 
-You can read documentation [here](https://docs.svrx.io/en/).
+You can read documentation [here](https://svrxjs.github.io/svrx-docs/en/).
 
-你可以在 [这里](https://docs.svrx.io/zh/) 阅读使用文档。
+你可以在 [这里](https://svrxjs.github.io/svrx-docs/zh/) 阅读使用文档。
 
 ## Support
 
@@ -31,10 +31,10 @@ Feel free to [raise an issue](https://github.com/svrxjs/svrx/issues/new/choose).
 
 ## Contributing
 
-Please see the [contributing guidelines](https://docs.svrx.io/en/contribution.html).
+Please see the [contributing guidelines](https://svrxjs.github.io/svrx-docs/en/contribution.html).
 
 ## Providing a new plugin
 
-For contributors planning to write a new plugin, please see the [plugin development guide](https://docs.svrx.io/en/plugin/contribution.html).
+For contributors planning to write a new plugin, please see the [plugin development guide](https://svrxjs.github.io/svrx-docs/en/plugin/contribution.html).
 
 [👉 See all plugins](/plugin?query=svrx-plugin-)

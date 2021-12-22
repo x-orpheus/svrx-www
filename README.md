@@ -4,7 +4,7 @@ svrx-www
 ![](/assets/images/banner.png)
 
 
-The [homepage](https://svrx.io) of svrx.
+The [homepage](https://svrxjs.github.io/svrx-www/) of svrx.
 
 ### Development
 
